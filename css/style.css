@@ -1,0 +1,31 @@
+/* UTLITIES */
+.box{
+    background-color: aqua;
+    width: 40px;
+    height: 40px;
+    margin: 5px 15px 5px 0;
+}
+
+
+
+img{
+    max-width: 100%;
+}
+
+
+/* BANNER */
+#banner{
+    background-image: url(../img/jumbo-bg.png);
+    background-size:cover;
+    background-position: center;
+    background-repeat: no-repeat;
+
+}
+
+
+#it-takes-two{
+    background-image: url(../img/it-takes-two-hero-banner-desktop.jpg);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
