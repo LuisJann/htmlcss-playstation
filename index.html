@@ -41,31 +41,50 @@
                       </button>
                       <div class="collapse navbar-collapse" id="navbarSupportedContent">
                         <ul class="navbar-nav me-auto mb-2 mb-lg-0">
-                          <li class="nav-item">
-                            <a class="nav-link active" aria-current="page" href="#">Home</a>
-                          </li>
-                          <li class="nav-item">
-                            <a class="nav-link" href="#">Link</a>
+                            <li class="nav-item dropdown">
+                                <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                                  Giochi
+                                </a>
+                              </li>
+                            <li class="nav-item dropdown">
+                            <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                                  Hardware
+                            </a>
+                              </li>
+                          <li class="nav-item dropdown">
+                            <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                              Servizi
+                            </a>
                           </li>
                           <li class="nav-item dropdown">
                             <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
-                              Dropdown
+                              Novità
                             </a>
-                            <ul class="dropdown-menu">
-                              <li><a class="dropdown-item" href="#">Action</a></li>
-                              <li><a class="dropdown-item" href="#">Another action</a></li>
-                              <li><hr class="dropdown-divider"></li>
-                              <li><a class="dropdown-item" href="#">Something else here</a></li>
-                            </ul>
                           </li>
-                          <li class="nav-item">
-                            <a class="nav-link disabled">Disabled</a>
+                          <li class="nav-item dropdown">
+                            <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                              Fai acquisti
+                            </a>
+                          </li>
+                          <li class="nav-item dropdown">
+                            <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                              Supporto
+                            </a>
                           </li>
                         </ul>
-                        <form class="d-flex" role="search">
-                          <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
-                          <button class="btn btn-outline-success" type="submit">Search</button>
-                        </form>
+                        <div class="d-flex align-items-center">
+                            <ul class="navbar-nav me-auto mb-2 ms-lg-5 mb-lg-0">
+                                <li class="nav-item dropdown">
+                                    <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                                      My PlayStation
+                                    </a>
+                                </li>
+                            </ul>
+                            <form class="d-flex" role="search">
+                              <button class="btn bg-dark text-white me-3" type="submit">Accedi</button>
+                            </form>
+                            <i class="fa-solid fa-magnifying-glass"></i>
+                        </div>
                       </div>
                     </div>
                   </nav>
@@ -76,12 +95,12 @@
 
     <!-- BANNER -->
     <section class="container-fluid" id="banner">
-        <div class="row">
+        <div class="row pt-5 ps-3">
             <div class="pt-5 pb-5 text-white">
                 <img class="img-banner-logo" src="img/returnal-hero-banner-logo.png" alt="">
                 <h1 class="pb-3 text-width">Rompi il cerchio</h1>
                 <p class="pb-2 text-width">Rialzati dopo ogni sconfitta e affronta una nuova sfida con ogni rinascita in questo esplosico thriller fantascientifico, disponibile in esclusiva su PS5.</p>
-                <button type="button" class="btn btn-primary">Primary</button>
+                <button type="button" class="btn btn-danger">Acquista ora</button>
             </div>
         </div>
     </section>
@@ -93,8 +112,8 @@
         <section class="container-fluid" id="card-section px-2">
             <div class="row row-cols-2 mx-auto row-cols-sm-3 row-cols-lg-6 mt-4">
                 <div class="col pb-2">
-                    <div class=" mx-auto border border-primary rounded">
-                        <img class="rounded  p-1" src="img/returnal-listing-thumb-01-ps5.jpg" alt="">
+                    <div class=" mx-auto">
+                        <img class="rounded" src="img/returnal-listing-thumb-01-ps5.jpg" alt="">
                     </div>
                 </div>
                 <div class="col">
@@ -192,7 +211,7 @@
                     <img class="box-takes-img" src="img/it-takes-two-logo.png" alt="">
                     <h2 class="fs-1 pb-1 text-width">Un'avventura coopeativa selvaggia ti attende</h2>
                     <p class="ms-fs text-width">Trova un amico e partite insieme per l'avventura più folle delle vostre vite in it takes Tow, un gioco d'avventura cooperativa a piattaforme che stravolge il suo genere</p>
-                    <button type="button" class="btn btn-primary ms-fs">Acquista ora</button>
+                    <button type="button" class="btn btn-danger ms-fs">Acquista ora</button>
                 </div>
             </div>
         </section>
@@ -283,7 +302,7 @@
                 <div class="col">
                     <div class="text-center">
                         <h2>Esplora Playstation 4</h2>
-                        <p class="text-secondary">Giochi incredibili e intrattenimento senza fine. Non c'è mai stato un momento migliore per giocae sulla tua PS4</p>
+                        <p class="text-secondary text-width mx-auto">Giochi incredibili e intrattenimento senza fine. Non c'è mai stato un momento migliore per giocae sulla tua PS4</p>
                     </div>
                 </div>
             </div>
@@ -323,7 +342,7 @@
                     <div class="ms-lg-4">
                         <img class="box-img pb-3" src="img/ps-plus-logo.png" alt="">
                         <p class="ms-2 ms-fs">Lorem ipsum dolor sit amet consectetur adipisicing elit. Minima sed suscipit dolorem sapiente esse. Suscipit.</p>
-                        <button type="button" class="ms-2 btn btn-primary mb-4">Primary</button>
+                        <button type="button" class="ms-2 btn btn-light mb-4 text-primary ms-fs">Esplora Playstation Plus</button>
                     </div>
                     </div>
                 <div class="col d-none d-md-block">
@@ -374,7 +393,7 @@
                     <div class="ms-lg-4">
                         <img class="box-img pb-3" src="img/ps-now-logo-two-column.png" alt="">
                         <p class="ms-2 text-white ms-fs">Lorem ipsum dolor sit amet consectetur adipisicing elit. Minima sed suscipit dolorem sapiente esse. Suscipit.</p>
-                        <button type="button" class="ms-2 btn btn-primary mb-3 ms-fs">Esplora PlayStation Now</button>
+                        <button type="button" class="ms-2 btn btn-light mb-3 ms-fs">Esplora PlayStation Now</button>
                     </div>
                     </div>
                 <div class="col d-none d-md-block">
