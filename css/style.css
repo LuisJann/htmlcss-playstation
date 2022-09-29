@@ -20,6 +20,11 @@ img{
     border-radius: 30px;
 }
 
+
+.box-img{
+    max-width: 60%;
+    padding-top: 10%;
+}
 /* HEADER */
 .box-logo-img{
     max-width: 80px;
@@ -67,10 +72,6 @@ img{
     background-color: #bebcbb;
 }
 
-.box-pplus-img{
-    max-width: 60%;
-    padding-top: 10%;
-}
 
 #playstation-now{
     background-color: #161c3c;
@@ -78,4 +79,8 @@ img{
 
 #footer-section{
     background-color: #01439c;
+}
+
+.box-img-footer{
+    max-width: 150px;
 }
