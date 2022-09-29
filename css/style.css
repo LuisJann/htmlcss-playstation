@@ -4,7 +4,7 @@ img{
 }
 
 
-/* UTLITIES */
+/* UTILITIES */
 .box{
     background-color: aqua;
     width: 40px;
@@ -24,6 +24,12 @@ img{
 .box-img{
     max-width: 60%;
     padding-top: 10%;
+}
+
+/* RESPONSIVE AREA UTILITIES */
+
+@media screen and (min-width:992px) {
+    .text-width{max-width: 40%;}
 }
 /* HEADER */
 .box-logo-img{
