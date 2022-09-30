@@ -41,6 +41,8 @@ img{
     padding: 10px 5px 10px 0;
 }
 
+/* menu Dropdown */
+
 .ms-menu-dropdown{
     width: 100vw;
     background-color: #f8f9fa;
@@ -61,6 +63,14 @@ img{
 
 .menu-dropdown-img:hover{
     border: 2px solid grey;
+}
+
+.link-menu-dropdown{
+    color: black;
+}
+
+.link-menu-dropdown:hover{
+    color: #0d6efd;
 }
 
 /* HOVER AREA UTILITIES */
