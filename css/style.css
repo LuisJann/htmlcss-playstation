@@ -26,6 +26,10 @@ img{
     opacity: .5;
 }
 
+.ms-fs-small{
+    font-size: .5rem;
+}
+
 /* RESPONSIVE AREA UTILITIES */
 
 @media screen and (min-width:992px) {
@@ -37,26 +41,26 @@ img{
     padding: 10px 5px 10px 0;
 }
 
-.nav-link:hover{
-    color: red;
-}
-
 .ms-menu-dropdown{
     width: 100vw;
     background-color: #f8f9fa;
     padding-bottom: 20px;
     position: absolute;
-    top: 58px;
+    top: 40px;
     left: -74px;
     display: none;
 }
 
-.menu-1{
+.ms-item-dropdown{
  position: relative;
 }
 
-.menu-1:hover  .ms-menu-dropdown{
+.ms-item-dropdown:hover  .ms-menu-dropdown{
     display: block;
+}
+
+.menu-dropdown-img:hover{
+    border: 2px solid grey;
 }
 
 /* HOVER AREA UTILITIES */
